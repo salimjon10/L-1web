@@ -1,0 +1,57 @@
+
+.featured-destination-section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.featured-destination-section .btn-watch {
+    display: flex;
+    align-items: center;
+    padding-top: 5%;
+    gap: 2%;
+}
+
+.featured-destination-section .btn-watch p {
+    font-family: Roboto;
+    color: #8A53FF;
+}
+
+.featured-destination-section .img-container {
+    padding-right: 5%;
+}
+
+.featured-content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2%;
+    max-width: 40%;
+}
+
+.featured-destination-text {
+    font-family: Roboto;
+    font-size: 1.2em;
+    color: #8A53FF;
+    letter-spacing: 0.06em;
+    font-weight: bold;
+}
+
+.blog-text {
+    font-family: 'Changa One';
+    font-size: 39px;
+    color: #434343;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.about-blog-text {
+    font-family: Roboto;
+    font-size: 1.3em;
+    color: #434343;
+    line-height: 1.8em;
+}
+

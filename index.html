@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="source/fonts.css">
+    <link rel="stylesheet" href="source/discover-container.css">
+    <link rel="stylesheet" href="source/featured-destination-section.css">
+    <link rel="stylesheet" href="source/footer-section.css">
+    <link rel="stylesheet" href="source/header.css">
+    <link rel="stylesheet" href="source/hero-section.css">
+    <link rel="stylesheet" href="source/recent-container.css">
+    <link rel="stylesheet" href="source/share-container.css">
+    
+    <title>L1-web</title>
+</head>
+<body>
+    
+    <header class="container">
+        <img src="source/images/logo.svg" alt="">
+           <nav>
+               <ul>
+                      <li class="activate"><a href="#">Home</a></li>
+                       <li><a href="#">Story</a></li>
+                       <li><a href="#">Gallery</a></li>
+                       <li><a href="#">Contact us</a></li>
+                       <img src="source/images/search.svg" alt="">
+                       <img src="source/images/profile.svg" alt="">   
+               </ul>
+           </nav>
+       </header>
+      
+
+       <div class="hero-section">
+        <div class="hero-content">
+            <h1><span class="hero-content-text">Let's talk</span> about</h1>
+            <h1>your next trip!</h1>
+            <p>Share your favorite travel destination and we will</p> 
+            <p>feature it in our next blog!</p>
+            <div class="cta-buttons">
+                <button class="primary-btn">Share your story</button>
+                <img src="source/images/play.svg" alt="">
+            </div>
+        </div>
+    </div>
+       
+    
+       <div class="featured-destination-section">
+        <div class="img-container">
+            <img src="source/images/Featured Image Container.png" alt="">
+        </div>
+        <div class="featured-content">
+            <p class="featured-destination-text">FEATURED DESTINATION</p>
+            <p class="blog-text">Our swiss adventure blog</p>
+            <p class="about-blog-text">Visiting the swiss alps? Want to know the requirements on travelling to Switzerland during the pandemic? Our blog might help!</p>
+            <div class="btn-watch">
+                <a href="#">
+                    <img src="source/images/play.svg" alt="">
+                </a>
+                <a href="#">
+                    <p>Watch Now</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+   
+    <section class="discover-container">
+        <div class="discover_wrapper">
+            <div class="discover_content">
+                <div class="discover_texts">
+                    <span class="discover_category">JOIN OUR ADVENTURES</span>
+                    <span class="discover_title">Discover the world with us</span>
+                </div>
+                <div class="discover_locations">
+                    <div class="locations_grid">
+                        <div class="location_card">
+                            <div class="location_card_img_container">
+                                <img src="source/images/Iceland card image.png" alt="">
+                            </div>
+                            <div class="location_card_title">Iceland</div>
+                            <div class="location_card_button">Discover</div>
+                        </div>
+                        <div class="location_card">
+                            <div class="location_card_img_container">
+                                <img src="source/images/Italy card image.png" alt="">
+                            </div>
+                            <div class="location_card_title">Italy</div>
+                            <div class="location_card_button">Discover</div>
+                        </div>
+                        <div class="location_card">
+                            <div class="location_card_img_container">
+                                <img src="source/images/Dubai card image.png" alt="">
+                            </div>
+                            <div class="location_card_title">Dubai</div>
+                            <div class="location_card_button">Discover</div>
+                        </div>
+                        <div class="location_card">
+                            <div class="location_card_img_container">
+                                <img src="source/images/Patagonia Card Image.png" alt="">
+                            </div>
+                            <div class="location_card_title">Patagonia</div>
+                            <div class="location_card_button">Discover</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="share-container">
+        <div class="share_wrapper">
+            <div class="discover_texts">
+                <span class="discover_category">LET'S BUILD A COMMUNITY</span>
+                <span class="discover_title">Join our next destination</span>
+            </div>
+            <div class="share_content_wrapper">
+                <div class="share_content">
+                    <div class="share_texts">
+                        <span class="share_content_title">Share your travels</span>
+                        <span class="share_content_description">Suggest a new travel destination that you want to see
+                            and we will feature it in our blog.</span>
+                    </div>
+                    <div class="share_inputs">
+                        <input type="text" class="share_input" placeholder="Destination name">
+                        <div class="dropdown-container">
+                            <input list="countries" class="share_input" placeholder="Country of Destination">
+                            <datalist id="countries">
+                                <option value="Austria">
+                                <option value="Russia">
+                                <option value="United Kingdom">
+                                <option value="United States">
+                            </datalist>
+                        </div>
+                        <input type="text" class="share_input" placeholder="Your name">
+                        <div class="dropdown-container">
+                            <input list="categories" class="share_input" placeholder="Shooting category">
+                            <datalist id="categories">
+                                <option value="Rifle Shooting">
+                                <option value="Pistol Shooting">
+                                <option value="Moving Target Shooting">
+                                <option value="Long-Range Shooting">
+                            </datalist>
+                        </div>
+                        <textarea type="text" class="share_input"
+                            placeholder="Describe what kind of photos you want to focus on"
+                            style="height: 102px; vertical-align: top; padding-top: 15px; resize: none;"></textarea>
+                    </div>
+                    <button class="share_submit">Submit</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="recent-container">
+        <div class="recent_wrapper">
+            <div class="discover_texts">
+                <span class="discover_category">CATCH UP TO OUR POSTS</span>
+                <span class="discover_title">Recent story entries</span>
+            </div>
+            <div class="recent_content">
+                <div class="recent_main_grid">
+                    <div class="recent_hero_content">
+                        <div class="recent_main_card">
+                            <img src="source/images/Big Story Image.png" alt="">
+                            <div class="recent_main_card_content">
+                                <div class="recent_main_card_texts">
+                                    <span class="recent_main_card_title">Zermatt, Switzerland</span>
+                                    <span class="recent_main_card_description">Marvel on the beauty of the iconic Matterhorn. Find the best places to stay that has the best views of this peak...</span>
+                                </div>
+                                <div class="recent_play_button_icon">
+                                    <img src="source/images/play.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="recent_content_grid">
+                        <div class="recent_story_card">
+                            <div class="recent_story_card_content">
+                                <img src="source/images/Story Image.png" alt="" class="recent_story_card_img">
+                                <div class="recent_story_card_texts">
+                                    <span class="recent_story_card_title">Tuscany, Italy</span>
+                                    <span class="recent_story_card_description">The amazing Tuscany is home to famous Renaissance art and architecture and a vast scenic landscape. <a style="color: var(--secondary-text-color)">view full blog...</a></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="recent_story_card">
+                            <div class="recent_story_card_content">
+                                <img src="source/images/Story Image-2.png" alt="" class="recent_story_card_img">
+                                <div class="recent_story_card_texts">
+                                    <span class="recent_story_card_title">Kyoto, Japan</span>
+                                    <span class="recent_story_card_description">Kyoto is well known for its temples, gardens, Shinto shrines and wooden houses. It’s time to visit tokyo. <a style="color: var(--secondary-text-color)">view full blog...</a></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="recent_story_card">
+                            <div class="recent_story_card_content">
+                                <img src="source/images/Story Image-3 (1).png" alt="" class="recent_story_card_img">
+                                <div class="recent_story_card_texts">
+                                    <span class="recent_story_card_title">Lofoten Islands, Norway</span>
+                                    <span class="recent_story_card_description">Featuring razor-sharp peaks housing the arctic landscape. This astonishing island is perfect for your next postcard. <a style="color: var(--secondary-text-color)">view full blog...</a></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <footer>
+        <div class="footer-section">
+            <div class="rights_reserved">
+                <span>© 2022, Talking Travel. All Rights Reserved.</span>
+            </div>
+            <div class="list_container">
+                <ul class="footer_links">
+                    <li class="footer_link">Home</li>
+                    <li class="footer_link">Story</li>
+                    <li class="footer_link">Gallery</li>
+                    <li class="footer_link">Contact us</li>
+                </ul>
+            </div>
+        </div>
+    </footer>    
+</body>
+</html>
+
+
+
+
+
+
+
+

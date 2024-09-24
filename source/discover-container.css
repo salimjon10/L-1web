@@ -1,0 +1,60 @@
+
+.discover-container {
+    padding: 50px 300px;
+}
+
+.discover_content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.discover_texts {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 8px;
+}
+
+.discover_category {
+    color: var(--secondary-text-color);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.discover_title {
+    color: var(--main-text-color);
+    font-size: 36px;
+    font-family: "Changa One";
+}
+
+.locations_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.location_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.location_card_title {
+    color: var(--main-text-color);
+    font-family: "Changa One";
+    font-size: 24px;
+}
+
+.location_card_img_container>img {
+    width: 240px;
+}
+
+.location_card_button {
+    color: var(--secondary-text-color);
+    font-size: 16px;
+    font-weight: 300;
+}

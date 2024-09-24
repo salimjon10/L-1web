@@ -1,0 +1,8 @@
+@import url(https://fonts.googleapis.com/css?family=Changa+One&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Roboto&display=swap);
+@font-face {
+    font-family: 'BlackSignature';
+    src: url("/static/fonts/BlackSignaturePersonalUseOnlyRegular.otf") format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,116 @@
+.recent-container {
+    padding: 100px 300px;
+}
+
+.recent_wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 50px;
+}
+
+.recent_main_grid {
+    gap: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.recent_content_grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+    align-items: baseline
+}
+
+.recent_main_card {
+    display: flex;
+    flex-direction: column;
+}
+
+.recent_main_card_title {
+    font-size: 24px;
+    color: var(--main-text-color);
+    font-family: "Changa One";
+}
+
+.recent_main_card_description {
+    color: var(--description-text-color);
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.recent_main_card_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 20px;
+    background-color: #F9F9F9;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.recent_main_card_texts {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 2px;
+    width: 430px;
+}
+
+.recent_play_button_icon > img {
+    filter: brightness(0) saturate(100%) invert(100%);
+    width: 22px;
+    height: 22px;
+}
+
+.recent_play_button_icon {
+    width: 48px;
+    height: 48px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: var(--secondary-text-color);
+    border-radius: 50%;
+}
+
+.recent_story_card {
+    background-color: #F9F9F9;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.recent_story_card_content {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.recent_story_card_texts {
+    padding-top: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.recent_story_card_title {
+    font-size: 24px;
+    color: var(--main-text-color);
+    font-family: "Changa One";
+}
+
+.recent_story_card_img {
+    height: 100%;
+}
+
+.recent_story_card_description {
+    color: var(--description-text-color);
+    font-size: 15px;
+    line-height: 26px;
+}
+
+.recent_story_card_texts {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}

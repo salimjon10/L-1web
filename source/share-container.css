@@ -1,0 +1,111 @@
+.share-container {
+    background: url(images/share_background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0px;
+}
+
+.share_wrapper {
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.share_content_wrapper {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    width: 600px;
+}
+
+.share_content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.share_content_title {
+    color: var(--main-text-color);
+    font-family: "Changa One";
+    font-size: 24px;
+}
+
+.share_texts {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.share_content_description {
+    color: var(--description-text-color);
+    font-size: 18px;
+    width: 550px;
+    line-height: 34px;
+}
+
+.share_inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.share_input {
+    height: 56px;
+    outline: none;
+    border: #0000001d 1px solid;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 20px;
+    width: 100%;
+    box-sizing: border-box; 
+}
+
+.dropdown-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.share_input {
+    height: 60px;
+    outline: none;
+    border: #0000001d 1px solid;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 40px 0px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #fff;
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+.dropdown-container::after {
+    content: "▼";
+    font-size: 12px;
+    color: grey; 
+    position: absolute;
+    right: 20px;
+    top: 52%;
+    transform: translateY(-50%) scaleY(50%);
+    pointer-events: none;
+}
+
+.share_submit {
+    color: #fff;
+    background-color: var(--secondary-text-color);
+    padding: 15px 100px;
+    border: none;
+    font-size: 16px;
+    font-weight: 300;
+    border-radius: 4px;
+    width: max-content;
+}
+
+input::-webkit-calendar-picker-indicator {
+    opacity: 0; 
+}
