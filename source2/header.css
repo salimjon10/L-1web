@@ -2,6 +2,14 @@ a {
     text-decoration: none;
 }
 
+.logo {
+    display: flex;
+    flex-direction: column;
+    font-family: BlackSignature;
+}
+
+
+
 header nav {
     float: right;
     width: 40%;
