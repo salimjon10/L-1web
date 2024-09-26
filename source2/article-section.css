@@ -1,0 +1,46 @@
+.article {
+    height: 2334.55px;
+    gap: 10px;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .article_hero_section {
+    display: flex;
+    padding: 10px;
+    max-width: 1000px;
+    margin: 40px auto;
+    flex-direction: column;
+  }
+  
+  .hero_header {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    
+  }
+  
+  .text_header_blog {
+    width: 800px;
+    text-align: left; 
+  }
+  
+  .text_header_blog h2 {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 10px;
+    letter-spacing: 0.06em;
+    color: #8A53FF;
+  }
+  
+  .text_header_blog h1 {
+    font-family: Changa One;
+    font-size: 39px;
+    letter-spacing: 0.12em;
+    font-weight: bold;
+    line-height: 28px;
+    color: #434343;
+  }
+  
+  

@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="source2/header.css">
+    <link rel="stylesheet" href="source2/article-section.css">
+    <link rel="stylesheet" href="source2/clincher-paragraph.css">
+    <link rel="stylesheet" href="source2/callout-section.css">
+    <link rel="stylesheet" href="source2/highlights-section.css">
+    <link rel="stylesheet" href="source2/share-container.css">
+    <link rel="stylesheet" href="source2/footer-section.css">
     <title>L-1(2)web</title>
 </head>
 <body>
@@ -13,7 +19,7 @@
            <nav>
                <ul>
                       <li class="activate"><a href="#">Home</a></li>
-                       <li><a href="#">Story</a></li>
+                       <li><b href="#">Story</b></li>
                        <li><a href="#">Gallery</a></li>
                        <li><a href="#">Contact us</a></li>
                        <img src="source2/images/Header Search Icon.svg" alt="">
@@ -21,6 +27,131 @@
                </ul>
            </nav>
         </header> 
+
+        <div class="article-section">
+            <div class="article_hero_section">
+              <div class="hero_header">
+                <div class="text_header_blog">
+                  <h2>popular destinations</h2>
+                  <h1>Hello Switzerland!</h1>
+                </div>
+                <img src="source2/images/Article Author.png" alt="">
+              </div>
+              <img src="source2/images/Article Hero Video.jpg" alt=""/>
+
+              <div class="clincher-paragraph">
+                <h4>Our Swiss adventure story</h4>
+                <p>Location location location! Zermatt Switzerland offers majestic landscapes that cannot be seen elsewhere. The Matterhorn for example. This peak is a sight to behold and seeing it upclose is more magical that we’ve ever imagined. ‘Want to enjoy a nice and cozy swiss breakfast! Well, Zermatt will never fail you.</p>
+              </div>
+            </div>
+             
+            <div class="callout-section">
+                <div class="image-column1">
+                    <img src="source2/images/Callout Swiss Winter Image.png" alt="" >
+                </div>
+                <div class="image-column">
+                    <img src="source2/images/Callout Switzerland Mountains Pop-up.png" alt="">
+                    <img src="source2/images/Callout Switzerland sunset image.png" alt="">
+                </div>
+                
+                <div class="callout-copywriting">
+                    <div class="callout-text">“</div>
+                    <div class="callout-title">One of the best hikes we’ve done so far...
+                        <p>As one of the alpine countries, landlocked Switzerland with <br> her mountains has to compete not only with her <br>neighbours but with other destinations. There are, e.g., no <br>coastal resorts.</p>
+                        <p>The advantage is that tourism in Switzerland benefits from a <br> large diversity of beautiful landscapes in a relatively small <br> space.</p>
+                       <img src="source2/images/View full gallery button.png" alt="">
+                        
+                    </div>
+                </div>            
+            </div>
+
+            <div class="conlution-text">
+               <div><p>The advantage is that tourism in Switzerland benefits of a large diversity of beautiful landscapes in a relatively small space, offering many possibilities for various activities all the year round, in all seasons, although primarily in summer and winter. The offers of nature as well as culture are manifold, but unfortunately price levels throughout the country are high, and this can discourage many people from visiting. Despite this major drawback, millions of visitors from all over the world arrive(d) every year.</p> </div> 
+             
+           
+
+            <div class="highlights-section">
+                <div class="clincher-paragraph">
+                  <h3>Highlights</h3>
+                </div>
+                <div class="highlights_row">
+                  <div class="highlights_card">
+                    <img src="source2/images/Highlight Image.png" alt="Iceland">
+                    <div class="text_highlights">The barns built in the 13th and 14th century</div>
+                  </div>
+                  <div class="highlights_card">
+                    <img src="source2/images/Highlight Image (1).png" alt="Iceland">
+                    <div class="text_highlights">Riding the amazing Bernina Express</div>
+                  </div>
+                  <div class="highlights_card">
+                    <img src="source2/images/Highlight Image (2).png" alt="Iceland">
+                    <div class="text_highlights">The Matterhorn glacier cable car ride</div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="Disclaimer">
+             <div><img src="source2/images/Disclaimer Section.png" alt=""></div>
+
+             <section class="share-container">
+                <div class="share_wrapper">
+                    <div class="discover_texts">
+                        <span class="discover_category">LET'S BUILD A COMMUNITY</span><br>
+                        <span class="discover_title">Join our next destination</span>
+                    </div>
+                    <div class="share_content_wrapper">
+                        <div class="share_content">
+                            <div class="share_texts">
+                                <span class="share_content_title">Share your travels</span>
+                                <span class="share_content_description">Suggest a new travel destination that you want to see
+                                    and we will feature it in our blog.</span>
+                            </div>
+                            <div class="share_inputs">
+                                <input type="text" class="share_input" placeholder="Destination name">
+                                <div class="dropdown-container">
+                                    <input list="countries" class="share_input" placeholder="Country of Destination">
+                                    <datalist id="countries">
+                                        <option value="Austria">
+                                        <option value="Russia">
+                                        <option value="United Kingdom">
+                                        <option value="United States">
+                                    </datalist>
+                                </div>
+                                <input type="text" class="share_input" placeholder="Your name">
+                                <div class="dropdown-container">
+                                    <input list="categories" class="share_input" placeholder="Shooting category">
+                                    <datalist id="categories">
+                                        <option value="Rifle Shooting">
+                                        <option value="Pistol Shooting">
+                                        <option value="Moving Target Shooting">
+                                        <option value="Long-Range Shooting">
+                                    </datalist>
+                                </div>
+                                <textarea type="text" class="share_input"
+                                    placeholder="Describe what kind of photos you want to focus on"
+                                    style="height: 102px; vertical-align: top; padding-top: 15px; resize: none;"></textarea>
+                            </div>
+                            <button class="share_submit">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer>
+                <div class="footer-section">
+                    <div class="rights_reserved">
+                        <span>© 2022, Talking Travel. All Rights Reserved.</span>
+                    </div>
+                    <div class="list_container">
+                        <ul class="footer_links">
+                            <li class="footer_link">Home</li>
+                            <li class="footer_link">Story</li>
+                            <li class="footer_link">Gallery</li>
+                            <li class="footer_link">Contact us</li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>  
 
 </body>
 </html>

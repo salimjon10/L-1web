@@ -1,0 +1,23 @@
+.clincher-paragraph {
+    height: auto;
+    margin-top: 10px;
+  }
+  
+  .clincher-paragraph h4 {
+    font-family: Changa One;
+    font-size: 32px;
+    letter-spacing: 0.12em;
+    font-weight: bold;
+    line-height: 36px;
+    color: #434343;
+  }
+  
+  .clincher-paragraph p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #434343;
+  }
+  

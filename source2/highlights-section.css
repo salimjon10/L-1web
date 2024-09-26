@@ -1,0 +1,42 @@
+.highlights-section {
+    display: flex;
+    padding: 20px;
+    max-width: 1000px;
+    gap: 10px;
+    height: auto;
+    flex-wrap: wrap; 
+    margin: 10px auto;
+  }
+  
+  .highlights_row {
+    display: flex;
+    gap: 10px;
+    width: 100%; 
+  }
+  
+  .highlights_card {
+    flex: 1; 
+    min-width: 0; 
+    display: flex;
+    flex-direction: column; 
+  }
+  
+  .highlights_card img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 8px;
+  }
+  
+  .text_highlights {
+    font-family: Roboto;
+    font-style: italic;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #828181;
+  }
+
+.Disclaimer img {
+    padding-left: 280px;
+}
+  
