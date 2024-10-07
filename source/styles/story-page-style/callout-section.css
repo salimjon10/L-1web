@@ -41,6 +41,7 @@
     font-weight: 400; 
     color: #8A53FF; 
     font-family: "ChangaOne-Regular";
+    padding-left: 140px;
 }
 
 .callout-title{
@@ -48,8 +49,8 @@
     font-style: italic;
     font-weight: 400;
     line-height: 48px;
-    letter-spacing: -0.04em;
     text-align: left;
+    padding-right: 200px;
     font-family: "ChangaOne-Regular";
 }
 
@@ -58,7 +59,7 @@
     margin-left: -48px;
     font-family: "Roboto-Regular"; 
     font-style: normal;
-    letter-spacing: 0.5px; 
+    letter-spacing: 0.01em;
     color: #434343;
 }
 
@@ -70,4 +71,19 @@
 
 .conlution-text p {
 padding-left: 280px;
+padding-top: 10px;
+
+}
+
+.callout-copywriting button {
+   color: aliceblue;
+    background-color: #8A53FF;
+    border-radius : 4px;
+    width:165.17px;
+   height: 46px;
+    cursor: pointer;
+}
+
+.conlution-text{
+    word-spacing: 5px;
 }

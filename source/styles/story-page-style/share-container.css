@@ -1,5 +1,5 @@
 .share-container {
-    background: url(images/share_background.png);
+    background: url(../../srory-page-images/share_background.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -119,6 +119,7 @@
     font-weight: 300;
     border-radius: 4px;
     width: max-content;
+    cursor: pointer;
 }
 
 input::-webkit-calendar-picker-indicator {

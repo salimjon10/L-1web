@@ -13,11 +13,13 @@
     align-items: center;
     padding-top: 5%;
     gap: 2%;
+ cursor: pointer;   
 }
 
 .featured-destination-section .btn-watch p {
     font-family: Roboto;
     color: #8A53FF;
+    cursor: pointer;
 }
 
 .featured-destination-section .img-container {

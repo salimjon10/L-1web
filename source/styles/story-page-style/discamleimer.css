@@ -1,0 +1,23 @@
+.disclaimer {
+    display: flex;
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 60px;
+    flex-wrap: wrap;
+    background-color: #FAFAFA;
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 40px;
+}
+
+.disclaimer p {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.disclaimer span {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
