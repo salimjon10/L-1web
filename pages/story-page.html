@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="C:\Users\salim\OneDrive\Desktop\Новая папка\source/styles/story-page-style/share-container.css">
     <link rel="stylesheet" href="C:\Users\salim\OneDrive\Desktop\Новая папка\source/styles/story-page-style/footer-section.css">
     <link rel="stylesheet" href="C:\Users\salim\OneDrive\Desktop\Новая папка\source/styles/story-page-style/discamleimer.css">
-    <title>L-1(2)web</title>
+    <title>story-page</title>
 </head>
 <body>
    
@@ -120,31 +120,41 @@
                                 <span class="share_content_description">Suggest a new travel destination that you want to see
                                     and we will feature it in our blog.</span>
                             </div>
-                            <div class="share_inputs">
-                                <input type="text" class="share_input" placeholder="Destination name">
-                                <div class="dropdown-container">
-                                    <input list="countries" class="share_input" placeholder="Country of Destination">
-                                    <datalist id="countries">
-                                        <option value="Austria">
-                                        <option value="Russia">
-                                        <option value="United Kingdom">
-                                        <option value="United States">
-                                    </datalist>
-                                </div>
-                                <input type="text" class="share_input" placeholder="Your name">
-                                <div class="dropdown-container">
-                                    <input list="categories" class="share_input" placeholder="Shooting category">
-                                    <datalist id="categories">
-                                        <option value="Rifle Shooting">
-                                        <option value="Pistol Shooting">
-                                        <option value="Moving Target Shooting">
-                                        <option value="Long-Range Shooting">
-                                    </datalist>
-                                </div>
-                                <textarea type="text" class="share_input"
-                                    placeholder="Describe what kind of photos you want to focus on"
-                                    style="height: 102px; vertical-align: top; padding-top: 15px; resize: none;"></textarea>
+                            <select class="share_select">
+                                <option value="" disabled selected>Destination name</option>
+                                <option value="Destination 1">Destination 1</option>
+                                <option value="Destination 2">Destination 2</option>
+                            </select>
+                            
+                            <div class="dropdown-container">
+                                <select class="share_select">
+                                    <option value="" disabled selected>Country of Destination</option>
+                                    <option value="Austria">Austria</option>
+                                    <option value="Russia">Russia</option>
+                                    <option value="United Kingdom">United Kingdom</option>
+                                    <option value="United States">United States</option>
+                                </select>
                             </div>
+                            
+                            <select class="share_select">
+                                <option value="" disabled selected>Your name</option>
+                                <option value="Name 1"></option>
+                                <option value="Name 2"></option>
+                            </select>
+                        
+                            <div class="dropdown-container">
+                                <select class="share_select">
+                                    <option value="" disabled selected>Shooting category</option>
+                                    <option value="Rifle Shooting">Rifle Shooting</option>
+                                    <option value="Pistol Shooting">Pistol Shooting</option>
+                                    <option value="Moving Target Shooting">Moving Target Shooting</option>
+                                    <option value="Long-Range Shooting">Long-Range Shooting</option>
+                                </select>
+                            </div>
+                            <textarea class="share_select"
+                                placeholder="Describe what kind of photos you want to focus on"
+                                style="height: 102px; vertical-align: top; padding-top: 15px; resize: none;"></textarea>
+                        </div>
                             <button class="share_submit">Submit</button>
                         </div>
                     </div>

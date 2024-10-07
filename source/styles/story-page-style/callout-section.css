@@ -70,20 +70,21 @@
 }
 
 .conlution-text p {
-padding-left: 280px;
-padding-top: 10px;
+    padding-left: 260px;
+    padding-top: 10px;
 
 }
 
 .callout-copywriting button {
-   color: aliceblue;
+    color: aliceblue;
     background-color: #8A53FF;
     border-radius : 4px;
     width:165.17px;
-   height: 46px;
+    height: 46px;
     cursor: pointer;
 }
 
 .conlution-text{
     word-spacing: 5px;
+    padding-right: 50px;
 }

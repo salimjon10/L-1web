@@ -66,7 +66,7 @@
     gap: 10px;
 }
 
-.share_input {
+.share_select{
     height: 56px;
     outline: none;
     border: #0000001d 1px solid;
@@ -84,7 +84,7 @@
     width: 100%;
 }
 
-.share_input {
+.share_select {
     height: 60px;
     outline: none;
     border: #0000001d 1px solid;
